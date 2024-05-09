@@ -65,10 +65,6 @@ while True:
 			# will select first entry in the dictionary)
 			name = max(counts, key=counts.get)
 
-			#If someone in your dataset is identified, print their name on the screen
-			if currentname != name:
-				currentname = name
-				print(currentname)
 
 		# update the list of names
 		names.append(name)
