@@ -24,12 +24,12 @@ You need to install the following libraries on your Raspberry Pi:
 
 ### Usage
 1. Clone this GitHub repository to your local machine.
-2. Open the `headshots.py` file in either Tony or Ginny and run it.
+2. create a folder name dataset and inside that create a folder of your name Open the `headshots.py` file in either Tony or Ginny make sure to change the directory_name to the folder name you created and run it.
 3. Take photos by pressing the space button. Note: There might be a small terminal window you need to type 'space'  in that window to take the images.
 4. After taking several images (e.g., 8), close the terminal.
-5. Move the faces to a folder named `dataset` and create a subfolder with your name. For example, `dataset/amir`, and paste all the images inside it.
-6. Open the `train.py` file and run it to train the faces. This will create an `encodings.py` file.
-7. Open the `facial_req.py` file to start using the face recognition system.
+5. If you alredy have the images copy the images to a folder named `dataset` and create a subfolder with your name. For example, `dataset/amir`, and paste all the images inside it.
+6. Open the `train_model.py` file and run it to train the faces. This will create an `encodings.py` file.
+7. Open the `facial_req.py` file to start using the face recognition system. Note: make sure to run the train_model.py file before running this file.
 
 ### Note
 Ensure that your Raspberry Pi is adequately configured and all hardware components are connected properly before running the code.
