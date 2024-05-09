@@ -3,7 +3,7 @@
 # import the necessary packages
 from picamera2 import Picamera2
 import face_recognition
-#import imutils
+import imutils
 import pickle
 import time
 import cv2
